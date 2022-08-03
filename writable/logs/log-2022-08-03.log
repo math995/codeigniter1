@@ -1,0 +1,8 @@
+ERROR - 2022-08-03 11:49:22 --> Error connecting to the database: Unknown database 'api'
+CRITICAL - 2022-08-03 12:33:47 --> Class 'App\Models\ProdutoModel' not found
+in APPPATH\Controllers\Produtos.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(858): App\Controllers\Produtos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
